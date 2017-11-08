@@ -8,6 +8,8 @@ The blake2 code was adapted from the reference blake2b files from blake2.net, an
 
 Goals:
 1) Produce a working single-threaded miner with a small code footprint and document it well.
+2) Adapt to a multi-threaded miner
+3) Adapt to CUDA-capable miner
 
 Next steps:
 1) Confirm the blake2 is really working properly with a set of test vectors for equihash (will use Zcash solutions).
